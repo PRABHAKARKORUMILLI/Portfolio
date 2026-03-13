@@ -118,24 +118,22 @@ scroll-behavior: smooth;
     font-size: 24px;
     cursor: pointer;
     color: white;
-     margin: 20px;
+
      background: transparent;
     border: none;
     text-align: left;
 }
 
 .nav-links li{
-
     margin: 0px 15px;
 }
 .nav-links a{
-    
     text-decoration: none;
     color: white;
     font-size: 18px;
     background: transparent;
     transition: color 0.3s ease;
-      text-align: left;
+   text-align: left;
 }
 .nav-links a:hover{
     color: #ff6347;
@@ -289,7 +287,7 @@ scroll-behavior: smooth;
     text-align: left;
     width: 100%;
     font-size: 18px;
-   margin-left: 30px;
+   
 }
 
 
@@ -781,6 +779,7 @@ margin-top: 40px;
     }
 
 }
+
 
 
 
