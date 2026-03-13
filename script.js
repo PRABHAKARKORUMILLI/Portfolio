@@ -5,20 +5,24 @@ const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("navLinks");
 
 if (hamburger && navLinks) {
+
     hamburger.addEventListener("click", function () {
 
+        // Toggle menu
         navLinks.classList.toggle("active");
 
+        // Change hamburger icon
         if (navLinks.classList.contains("active")) {
-            hamburger.innerHTML = "✖";
+            hamburger.innerHTML = "✖";   // Close icon
         } else {
-            hamburger.innerHTML = "☰";
+            hamburger.innerHTML = "☰";   // Hamburger icon
         }
 
     });
+
 }
 
-// CONTACT FORM EMAIL SEND
+// Contact Form
 const form = document.getElementById("contactForm");
 const formMessage = document.getElementById("formMessage");
 
@@ -28,29 +32,22 @@ if (form) {
 
         event.preventDefault();
 
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
 
-        const templateParams = {
-            from_name: name,
-            from_email: email,
-            message: message
-        };
+        if (name === "" || email === "" || message === "") {
 
-        emailjs.send("YOUR_SERVICE_ID","YOUR_TEMPLATE_ID",templateParams)
-        .then(function(response) {
+            formMessage.innerText = "Please fill all fields!";
+            formMessage.style.color = "red";
+
+        } else {
 
             formMessage.innerText = "Message sent successfully!";
             formMessage.style.color = "green";
+
             form.reset();
-
-        }, function(error) {
-
-            formMessage.innerText = "Failed to send message!";
-            formMessage.style.color = "red";
-
-        });
+        }
 
     });
 
