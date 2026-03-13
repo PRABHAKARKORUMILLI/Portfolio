@@ -23,14 +23,21 @@ if (form) {
         }
 
         const templateParams = {
-
             from_name: name,
             from_email: email,
             message: message
-
         };
 
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+        // 1️⃣ Send email to YOU
+        emailjs.send("service_lyxf1f9", "template_pxddvtk", templateParams)
+
+        .then(function () {
+
+            // 2️⃣ Send Auto Reply to USER
+            return emailjs.send("service_lyxf1f9", "template_i7hu5vg", templateParams);
+
+        })
+
         .then(function () {
 
             formMessage.innerText = "Message sent successfully!";
@@ -38,6 +45,7 @@ if (form) {
             form.reset();
 
         })
+
         .catch(function () {
 
             formMessage.innerText = "Failed to send message!";
