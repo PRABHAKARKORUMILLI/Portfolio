@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 } 
-make  in this code give back full code
+
 
  /* .button-hover {
     display: flex;
@@ -273,10 +273,11 @@ scroll-behavior: smooth;
         width: 100%;
         background: #0d1117;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         display: none;
         padding: 20px 0;
         z-index: 1000;
+         padding-left: 30px
          
     }
 
@@ -773,4 +774,5 @@ margin-top: 40px;
     }
 
 }
+
 
