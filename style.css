@@ -118,6 +118,10 @@ scroll-behavior: smooth;
     font-size: 24px;
     cursor: pointer;
     color: white;
+     align-items: flex-start;
+     background: transparent;
+    border: none;
+    text-align: left;
 }
 
 .nav-links li{
@@ -764,3 +768,4 @@ margin-top: 40px;
     }
 
 }
+
