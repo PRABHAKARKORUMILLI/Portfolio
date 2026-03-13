@@ -272,7 +272,7 @@ scroll-behavior: smooth;
         width: 100%;
         background: #0d1117;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         display: none;
         padding: 20px 0;
         z-index: 1000;
@@ -283,6 +283,13 @@ scroll-behavior: smooth;
         margin: 15px 0;
          text-align: left;
     }
+     .nav-links a{
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+}
+
 
     /* Show menu when active */
     .nav-links.active {
@@ -772,6 +779,7 @@ margin-top: 40px;
     }
 
 }
+
 
 
 
