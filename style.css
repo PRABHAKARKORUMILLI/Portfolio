@@ -98,7 +98,7 @@ scroll-behavior: smooth;
 .navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex;
     padding: 15px 20px;
     position: fixed;
     background: linear-gradient(to right, #1e2e45, #5d7ca2, #000203);
@@ -125,9 +125,11 @@ scroll-behavior: smooth;
     margin: 0px 15px;
 }
 .nav-links a{
+    text-align: left;
     text-decoration: none;
     color: white;
     font-size: 18px;
+    background: transparent;
     transition: color 0.3s ease;
 }
 .nav-links a:hover{
@@ -760,4 +762,5 @@ margin-top: 40px;
         flex-direction: column;
         text-align: center;
     }
+
 }
