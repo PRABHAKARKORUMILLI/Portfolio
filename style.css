@@ -118,7 +118,7 @@ scroll-behavior: smooth;
     font-size: 24px;
     cursor: pointer;
     color: white;
- 
+     margin: 20px;
      background: transparent;
     border: none;
     text-align: left;
@@ -301,7 +301,7 @@ scroll-behavior: smooth;
     /* Show hamburger */
     .hamburger {
         display: block;
-          text-align: left;
+         text-align: left;
     }
 
     /* Home Section */
@@ -781,6 +781,7 @@ margin-top: 40px;
     }
 
 }
+
 
 
 
