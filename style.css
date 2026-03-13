@@ -276,6 +276,7 @@ scroll-behavior: smooth;
         display: none;
         padding: 20px 0;
         z-index: 1000;
+         margin: 20px;
          
     }
 
@@ -288,6 +289,7 @@ scroll-behavior: smooth;
     text-align: left;
     width: 100%;
     font-size: 18px;
+     margin-left: 20px;
 }
 
 
@@ -779,6 +781,7 @@ margin-top: 40px;
     }
 
 }
+
 
 
 
