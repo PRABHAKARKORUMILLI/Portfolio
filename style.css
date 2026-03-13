@@ -4,7 +4,8 @@
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 
-}
+} 
+make  in this code give back full code
 
  /* .button-hover {
     display: flex;
@@ -118,22 +119,24 @@ scroll-behavior: smooth;
     font-size: 24px;
     cursor: pointer;
     color: white;
-
+ 
      background: transparent;
     border: none;
     text-align: left;
 }
 
 .nav-links li{
+
     margin: 0px 15px;
 }
 .nav-links a{
+    
     text-decoration: none;
     color: white;
     font-size: 18px;
     background: transparent;
     transition: color 0.3s ease;
-   text-align: left;
+      text-align: left;
 }
 .nav-links a:hover{
     color: #ff6347;
@@ -270,11 +273,10 @@ scroll-behavior: smooth;
         width: 100%;
         background: #0d1117;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         display: none;
         padding: 20px 0;
         z-index: 1000;
-     
          
     }
 
@@ -282,14 +284,6 @@ scroll-behavior: smooth;
         margin: 15px 0;
          text-align: left;
     }
-     .nav-links a{
-    display: block;
-    text-align: left;
-    width: 100%;
-    font-size: 18px;
-   
-}
-
 
     /* Show menu when active */
     .nav-links.active {
@@ -299,7 +293,7 @@ scroll-behavior: smooth;
     /* Show hamburger */
     .hamburger {
         display: block;
-         text-align: left;
+          text-align: left;
     }
 
     /* Home Section */
@@ -779,11 +773,4 @@ margin-top: 40px;
     }
 
 }
-
-
-
-
-
-
-
 
