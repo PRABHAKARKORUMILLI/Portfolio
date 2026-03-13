@@ -276,10 +276,12 @@ scroll-behavior: smooth;
         display: none;
         padding: 20px 0;
         z-index: 1000;
+         
     }
 
     .nav-links li {
         margin: 15px 0;
+         text-align: left;
     }
 
     /* Show menu when active */
@@ -290,6 +292,7 @@ scroll-behavior: smooth;
     /* Show hamburger */
     .hamburger {
         display: block;
+          text-align: left;
     }
 
     /* Home Section */
@@ -769,5 +772,6 @@ margin-top: 40px;
     }
 
 }
+
 
 
