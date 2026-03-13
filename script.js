@@ -38,7 +38,7 @@ if (form) {
             message: message
         };
 
-        emailjs.send("YOUR_SERVICE_ID","YOUR_TEMPLATE_ID",templateParams)
+        emailjs.send("service_lyxf1f9","template_pxddvtk",templateParams)
         .then(function(response) {
 
             formMessage.innerText = "Message sent successfully!";
@@ -58,3 +58,4 @@ if (form) {
 
 
 });
+
