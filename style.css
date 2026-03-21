@@ -197,13 +197,13 @@ background: linear-gradient(135deg, #0f2027, #2c5364);
    justify-content: center;
    align-items: center;
    height: 100vh;
-   padding: 100px 50px 50px;
+   padding: 50pxpx 50px;
    background: linear-gradient(45deg, #817676, #142338, #2b2a2a, #14102a);
    background-size: 400% 400%;
    animation: gradientMove 15s ease infinite;
    color: #fff;
    text-align: center;
-   margin-top: 60px;
+   margin-top: 80px;
    background-position: fixed;
    
 }
@@ -330,8 +330,8 @@ background: linear-gradient(135deg, #0f2027, #2c5364);
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 100px 20px 40px; 
-        margin-top: 60px;
+        padding: 50px 20px ; 
+        margin-top: 50px;
     }
 
     .home-content {
