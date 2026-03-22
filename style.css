@@ -245,7 +245,7 @@ background: linear-gradient(135deg, #0f2027, #2c5364);
     margin-bottom: 20px;
     line-height: 1.2;
     font-weight: 700;
-    letter-spacing: 0;   
+    letter-spacing: 1.2;   
 
 }
 .home-content p{
@@ -344,14 +344,13 @@ section {
 
     .home-content h1 {
         order: 1;
-         text-align: center;
         font-size: 36px;
     }
 
     .home-content p {
         order: 2;
         font-size: 16px;
-        text-align: center;
+        
     }
 
     .image {
