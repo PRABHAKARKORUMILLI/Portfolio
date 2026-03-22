@@ -196,7 +196,7 @@ background: linear-gradient(135deg, #0f2027, #2c5364);
    display: flex;
    justify-content: center;
    align-items: center;
-   min-height: 100vh;
+   height: 100vh;
    padding: 0 50px;
    background: linear-gradient(45deg, #817676, #142338, #2b2a2a, #14102a);
    background-size: 400% 400%;
@@ -344,14 +344,14 @@ section {
 
     .home-content h1 {
         order: 1;
-         text-align: left;
+         text-align: center;
         font-size: 36px;
     }
 
     .home-content p {
         order: 2;
         font-size: 16px;
-         text-align: left;
+        text-align: center;
     }
 
     .image {
